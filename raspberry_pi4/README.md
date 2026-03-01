@@ -174,7 +174,7 @@ Run `rtl_test -t` to check detection. If it fails, apply the DVB-T blacklist fix
 **`could not connect to display` / GUI won't open**
 Make sure you are running the script from within the Pi desktop environment, not over a headless SSH session. If using SSH with X forwarding:
 ```bash
-ssh -X ahartman@meridianpi
+ssh -X username@hostname
 ```
 
 **No audio output**
